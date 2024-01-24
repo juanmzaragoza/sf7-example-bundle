@@ -1,0 +1,10 @@
+{
+    "name": "jmz/example-bund",
+    "type": "symfony-bundle",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "ExpertSoul\\ExampleBundle\\": "src/"
+        }
+    },
+}    

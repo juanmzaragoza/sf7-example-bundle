@@ -3,3 +3,9 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+controllers_bundle:
+    resource:
+        path: ../src/ExpertSoul/ExampleBundle/src/Controller
+        namespace: App\ExpertSoul\ExampleBundle\Controller
+    type: attribute
