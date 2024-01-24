@@ -6,5 +6,5 @@
         "psr-4": {
             "ExpertSoul\\ExampleBundle\\": "src/"
         }
-    },
+    }
 }    
