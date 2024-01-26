@@ -25,3 +25,8 @@ services:
     App\ExpertSoul\ExampleBundle\Command\PrintSomethingCommand:
         tags:
             - { name: 'console.command', command: 'app:print-something' }
+
+    # mandatory to use the service in the argument's controller
+    App\ExpertSoul\ExampleBundle\Controller\:
+        resource: '../src/Controller'
+        tags: ['controller.service_arguments']
